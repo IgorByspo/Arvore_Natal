@@ -1,0 +1,79 @@
+body{
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(#2f7185 20%, #061c22 80%);
+}
+
+#tree{
+    display: block;
+}
+
+#star{
+    background-color: #ffcd3c;
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    margin: auto;
+    margin-top: 20px;
+}
+
+#top-tree{
+    background: linear-gradient(45deg, #9acd32 50%, forestgreen 50%);
+    width: 150px; 
+    height: 100px; 
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    border-radius: 20px;
+    margin: auto;
+}
+
+#middle-tree{
+    background: linear-gradient(135deg, #9acd32 50%, forestgreen 50%);
+    width: 150px;
+    height: 100px;
+    clip-path: polygon(20% 30%, 80% 30%, 100% 100%, 0% 100%);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+#bottom-tree{
+    background: linear-gradient(45deg, forestgreen 50%, #9acd32 50%);
+    width: 200px;
+    height: 100px;
+    clip-path: polygon(20% 30%, 80% 30%, 100% 100%, 0% 100%);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+#base-tree{
+    background-color: forestgreen;
+    width: 25px;
+    height: 50px;
+    margin: auto;
+}
+
+.message{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text{
+    font-family: 'Vollkorn SC', serif;
+    background-color: #eb232d;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    padding-top: 1px;
+    padding-bottom: 0;
+}
+
+h2{
+    font-family: 'Puppies Play', cursive;
+    font-size: 8rem;
+    margin-top: 5px;
+    margin-bottom: -2px;
+}
